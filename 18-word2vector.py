@@ -6,6 +6,8 @@ import numpy as np
 import tensorflow as tf
 import jieba
 
+# from https://github.com/sea-boat/DeepLearning-Lab
+
 ## read samples
 def read_data(filename):
     with codecs.open(filename, 'r', encoding='utf-8') as f:
