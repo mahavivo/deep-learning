@@ -3,7 +3,7 @@
 import tensorflow as tf
 import numpy as np
 
-name_dataset = 'name.csv'
+name_dataset = 'data/name.csv'
 
 train_x = []
 train_y = []

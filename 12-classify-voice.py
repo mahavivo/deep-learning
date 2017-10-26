@@ -7,13 +7,13 @@ import tensorflow as tf  # 0.12
 from sklearn.model_selection import train_test_split
 
 # 下载数据集
-if not os.path.exists('voice.csv'):
+if not os.path.exists('data/voice.csv'):
     url = 'http://blog.topspeedsnail.com/wp-content/uploads/2016/12/voice.csv'
     data = requests.get(url).content
-    with open('voice.csv', 'wb') as f:
+    with open('data/voice.csv', 'wb') as f:
         f.write(data)
 
-voice_data = pd.read_csv('voice.csv')
+voice_data = pd.read_csv('data/voice.csv')
 # print(voice_data.head())
 # print(voice_data.tail())
 

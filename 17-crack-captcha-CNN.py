@@ -206,7 +206,7 @@ def train_crack_captcha_cnn():
             step += 1
 
 
-# train_crack_captcha_cnn()
+train_crack_captcha_cnn()
 
 
 # 使用训练的模型识别验证码

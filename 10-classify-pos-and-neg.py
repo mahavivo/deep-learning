@@ -13,8 +13,8 @@ from nltk.stem import WordNetLemmatizer
 
 # 词形还原(lemmatizer)，把一个任何形式的英语单词还原到一般形式
 
-pos_file = 'pos.txt'
-neg_file = 'neg.txt'
+pos_file = 'data/pos.txt'
+neg_file = 'data/neg.txt'
 
 
 # 创建词汇表

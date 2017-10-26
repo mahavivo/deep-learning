@@ -16,7 +16,7 @@ def read_data(filename):
         text = tf.compat.as_str(f.read()).split()
     return text
 
-filename = "./Jane_Eyre.txt"
+filename = "data/Jane_Eyre.txt"
 
 vocabulary = read_data(filename)
 

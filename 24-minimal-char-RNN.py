@@ -6,7 +6,7 @@ import numpy as np
 import jieba
 
 # data I/O
-data = open(r'C:\Users\vivo\Desktop\news.txt', 'rb').read() # should be simple plain text file
+data = open(r'data/围城.txt', 'rb').read() # should be simple plain text file
 data = data.decode('utf-8')
 data = list(jieba.cut(data,cut_all=False))
 chars = list(set(data))

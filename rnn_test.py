@@ -9,7 +9,7 @@ import json
 from six import iteritems
 from rnn_model import RNNModel
 
-data_file = "Jane_Eyre.txt"
+data_file = "data/Jane_Eyre.txt"
 rnn_layers = 2
 embedding_size = 128
 hidden_size = 128
