@@ -4,6 +4,8 @@ import tensorflow as tf
 import numpy as np
 import cv2
 
+# download from
+# 'https://github.com/martinwicke/tensorflow-tutorial/blob/master/tensorflow_inception_graph.pb'
 inception_model = 'tensorflow_inception_graph.pb'
 
 # 加载inception模型
